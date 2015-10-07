@@ -360,8 +360,6 @@
 	}
 
 	CKEDITOR.plugins.add( 'tableresize', {
-		requires: 'tabletools',
-
 		init: function( editor ) {
 			editor.on( 'contentDom', function() {
 				var resizer,
